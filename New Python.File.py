@@ -1,11 +1,7 @@
-def triangle(n, direction):
-    if direction == "base-up":
-        for i in range(n, 0, -1):
-            print("*" * i)
-    
-    elif direction == "base-down":
-        for i in range(1, n + 1):
-            print("*" * i) 
+# Write a function to find the deepest level of nested brackets
+# Sample Input: {"a":1,"b":2,"c":{"d":3,"e":4,"f":{"g":5,"h":6}}}
+# Sample Output: There are 3 nested layers
 
-triangle(5, "base-up")
-print ()
+current_array = {"a":1,"b":2,"c":{"d":3,"e":4,"f":{"g":5,"h":6}}}
+current_array.reshape(3,2)
+print(current_array)
